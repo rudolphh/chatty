@@ -1,0 +1,31 @@
+{
+  "name": "chatty",
+  "version": "1.0.0",
+  "description": "chat client using socket.io",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rudolphh/chatty.git"
+  },
+  "keywords": [
+    "socket.io",
+    "node",
+    "chat"
+  ],
+  "author": "Rudy A Hernandez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rudolphh/chatty/issues"
+  },
+  "homepage": "https://github.com/rudolphh/chatty#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "node-iplocate": "^1.0.2",
+    "node-localstorage": "^2.1.6",
+    "public-ip": "^4.0.3",
+    "socket.io": "^4.0.0"
+  }
+}
