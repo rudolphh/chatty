@@ -29,7 +29,8 @@
     var socket = io.connect();
 
     socket.on("chat", (data) => {
-      var msg = data.nick + `(${data.location}):` + data.message;
+      let date = new Date();
+      var msg = data.nick + `(${data.location}) [ ${date.toLocaleTimeString()} ] :` + data.message;
       $("textarea").val($("textarea").val() + msg + "\n");
     });
 
